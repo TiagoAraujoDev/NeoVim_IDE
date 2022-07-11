@@ -16,6 +16,16 @@ vim.g.mapleader = " "
 --   command_mode = "c",
 
 -- Normal --
+-- Save and quit cammands
+keymap("n", "<leader>w", ":w<CR>", opts)
+keymap("n", "<leader>q", ":q<CR>", opts)
+
+-- Coding shortcuts
+keymap("n", "<leader>p", "A;<ESC>", opts)
+keymap("n", "<A-k>", "O<ESC>j", opts)
+keymap("n", "<A-j>", "o<ESC>k", opts)
+keymap("i", "<A-l>", "<ESC>A", opts)
+
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
