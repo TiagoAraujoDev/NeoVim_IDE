@@ -60,6 +60,15 @@ return packer.startup(function(use)
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "8223c970677e4d88c9b6b6d81bda23daf11062bb" }
   use { "lunarvim/darkplus.nvim", commit = "2584cdeefc078351a79073322eb7f14d7fbb1835" }
+  use { "sainnhe/everforest", commit = "9a8b4f85a7f1bb0e3019911f2c425b994cedb18f" }
+  use { "sainnhe/sonokai", commit = "888b68bed34a18be8f3341713ccd69b549951d95" }
+  use { "EdenEast/nightfox.nvim", commit = "f8e1a09781a165ed002f52cfdc7c85bf7539a863" }
+  use { "projekt0n/github-nvim-theme", commit = "81c6a906845b150bb5b51c9979e290e9874efff1" }
+  use { "navarasu/onedark.nvim", commit = "a5d57015fe164e1a65f317116089956e395132d3" }
+  use { "tiagovla/tokyodark.nvim", commit = "e505c2bf88ef0e3fcb2c46195baacd0fcbe79d6f" }
+  use { "Mofiqul/dracula.nvim", commit = "40d38e95bf006470b3efe837b2e0b9f66707c850" }
+  use { "ellisonleao/gruvbox.nvim", commit = "29c50f1327d9d84436e484aac362d2fa6bca590b" }
+  use { "yonlu/omni.vim", commit = "6c0f3015b1d6f2ae59c12cc380c629b965d3dc62" }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp", commit = "df6734aa018d6feb4d76ba6bda94b1aeac2b378a" } -- The completion plugin

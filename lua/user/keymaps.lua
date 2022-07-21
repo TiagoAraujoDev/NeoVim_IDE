@@ -16,6 +16,10 @@ vim.g.mapleader = " "
 --   command_mode = "c",
 
 -- Normal --
+-- Split buffers
+keymap("n", "sh", ":split<CR>", opts)
+keymap("n", "sv", ":vsplit<CR>", opts)
+
 -- Save and quit cammands
 keymap("n", "<leader>w", ":w<CR>", opts)
 keymap("n", "<leader>q", ":q<CR>", opts)
